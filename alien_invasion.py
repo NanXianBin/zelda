@@ -250,6 +250,7 @@ class AlienInvasion:
     def _ship_hit(self):
         """应对飞船被外星人击中的情况."""
         if self.stats.ships_left > 0:
+
             print(self.stats.ships_left)
             # 递减ships_left，并更新记分牌.
             self.ships.add(self.ship)
