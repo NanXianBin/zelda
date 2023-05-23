@@ -227,6 +227,7 @@ class AlienInvasion:
             self.sb.prep_ships()
 
     def _update_aliens(self):
+
         """检查飞船是否在一个边缘，然后更新飞船中所有外星人的位置."""
         self.aliens.update()
 
