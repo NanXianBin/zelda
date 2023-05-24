@@ -19,6 +19,7 @@ class Ship(Sprite):
         # 每艘新船在屏幕的底部中心开始.
         self.rect.midbottom = self.screen_rect.midbottom
 
+
         # 存储船舶的水平位置.
         self.x = float(self.rect.x)
         self.y = float(self.rect.y)
